@@ -1,3 +1,3 @@
-a=input("Enter a value:")
-print ("a=",a)
-print ("typ=",type(a))
+a=10
+b=20
+print id(a),id(b)
