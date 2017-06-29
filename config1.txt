@@ -1,0 +1,14 @@
+(dp0
+S'username'
+p1
+S'tcloudost'
+p2
+sS'host'
+p3
+S'localhost'
+p4
+sS'password'
+p5
+S'pyhon'
+p6
+s.
