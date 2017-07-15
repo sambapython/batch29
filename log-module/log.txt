@@ -1,0 +1,27 @@
+INFO:root:Function started:1500085008.92
+DEBUG:root:cost price: 30
+INFO:root:Function ended:1500085010.93
+DEBUG:root:DEBUG statement
+WARNING:root:WARNING statement
+ERROR:root:Exception  statement
+None
+ERROR:root:Error statement
+2017-07-15 07:54:13,346->INFO==>>Function started:1500085453.35
+2017-07-15 07:54:13,352->DEBUG==>>cost price: 30
+2017-07-15 07:54:15,356->INFO==>>Function ended:1500085455.36
+2017-07-15 07:54:15,370->DEBUG==>>DEBUG statement
+2017-07-15 07:54:15,370->WARNING==>>WARNING statement
+2017-07-15 07:54:15,371->ERROR==>>Exception  statement
+None
+2017-07-15 07:54:15,371->ERROR==>>Error statement
+2017-07-15 08:03:34,431->INFO==>>A=10
+2017-07-15 08:03:34,483->INFO==>>B=200
+2017-07-15 08:03:34,486->DEBUG==>>VALUE=210
+2017-07-15 08:03:34,487->INFO==>>Function started:1500086014.49
+2017-07-15 08:03:34,487->DEBUG==>>cost price: 30
+2017-07-15 08:03:36,493->INFO==>>Function ended:1500086016.49
+2017-07-15 08:03:36,496->DEBUG==>>DEBUG statement
+2017-07-15 08:03:36,496->WARNING==>>WARNING statement
+2017-07-15 08:03:36,496->ERROR==>>Exception  statement
+None
+2017-07-15 08:03:36,497->ERROR==>>Error statement
