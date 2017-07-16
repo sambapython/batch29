@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form</title>
+</head>
+<body>
+<form method='POST'>
+		X_VALUES: <input type='text' name='x' /><br>
+		y_VALKUES: <input type='text' name='y' /><br>
+		<input type='submit' value='GET GRAPH'/>
+</form>
+<p>
+USers info requested: <h1>{{ user_info }}</h1>
+</p>
+<img src="{{ url_for('static',filename='bar.png')}}" alt="{{ url_for('static',filename='bar.png')}}">
+</body>
+</html>
