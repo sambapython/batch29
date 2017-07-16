@@ -10,7 +10,8 @@ def send_user_info():
 		user_info=users.get(user)
 	else:
 		user_info=""
-	return render_template('form.html',user_info=user_info)
+		
+	return render_template('form.html',user_info={"user1":"user1 info",'user2':'user2 info','user3':'user3 info'})
 
 
 @app.route('/users')

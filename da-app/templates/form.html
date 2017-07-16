@@ -3,14 +3,27 @@
 <head>
 	<title>form</title>
 </head>
-<body>
+<body bgcolor="blue">
 <form method='POST'>
 		X_VALUES: <input type='text' name='x' /><br>
 		y_VALKUES: <input type='text' name='y' /><br>
 		<input type='submit' value='GET GRAPH'/>
 </form>
 <p>
-USers info requested: <h1>{{ user_info }}</h1>
+
+<table border="2">
+	
+		{% for row in user_info %}
+		<tr>
+		
+			<td>{{ row }}</td>
+			<td>{{ user_info.get(row) }}</td>
+
+
+		</tr>
+		{% endfor %}
+	
+</table>
 </p>
 <img src="{{ url_for('static',filename='bar.png')}}" alt="{{ url_for('static',filename='bar.png')}}">
 </body>
